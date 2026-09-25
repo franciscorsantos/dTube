@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ambientes virtuais
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Downloads temporários
+ytdl_*/
+temp_downloads/
+*.mp4
+*.mp3
+*.m4a
+*.webm

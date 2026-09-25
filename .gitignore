@@ -1,0 +1,95 @@
+# ==========================================
+# dTube - Git Ignore Rules
+# ==========================================
+
+# ------------------------------------------
+# Python & Bytecode
+# ------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ------------------------------------------
+# Ambientes Virtuais (Virtual Environments)
+# ------------------------------------------
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ------------------------------------------
+# IDEs, Editores e Arquivos do SO
+# ------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------
+# Testes e Cobertura de Código
+# ------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ------------------------------------------
+# Downloads e Arquivos Temporários de Mídia
+# ------------------------------------------
+ytdl_*/
+temp_downloads/
+*.mp4
+*.mp3
+*.m4a
+*.webm
+*.mkv
+*.avi
+*.wav
+*.flv
+
+# ------------------------------------------
+# Arquivos de Autenticação e Segredos
+# ------------------------------------------
+cookies.txt
+*.cookies.txt
+.env
+.env.*
+!.env.example
+*.pem
+*.key
